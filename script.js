@@ -5,12 +5,10 @@ var google = document.querySelector("#google");
 
 searchIcon.addEventListener("click", () => {
   if (
-    input.value.includes("www.") ||
-    input.value.includes(".com") ||
-    input.value.includes(".in")
+    input.value.includes(".") 
   ) {
     open(`http://${input.value}`);
-  } else if (input.value.includes("https:")) {
+  } else if (input.value.includes("http:") || input.value.includes("https:")) {
     open(`${input.value}`);
   } else {
     if (input.value != "") {
