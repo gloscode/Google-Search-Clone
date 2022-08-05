@@ -10,12 +10,13 @@ Google Search Clone using HTML, CSS, JS and Bootstrap. It takes the search text 
 
 ## File Added
 
-Added JS
+Added JS (Add between opening and closing head tag)
 
 ````Html
-<script src="script.js"></script>
+<script defer src="script.js"></script>
 ````
-Added CSS
+
+Added CSS (Add between opening and closing head tag)
 
 ````Html
 <link rel="stylesheet" href="style.css">
